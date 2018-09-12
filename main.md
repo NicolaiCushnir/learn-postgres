@@ -14,20 +14,16 @@
 
 7. select a database: `\c name_db`
 
-8. create a table:
-   `CREATE TABLE name_table (id INT PRIMARY KEY, name text, age INT);`
+8. create a table: `CREATE TABLE name_table (id INT PRIMARY KEY, name text, age INT);`
 
 9. see tables: `\dt`
 
 10. shimba denumirea la database: `ALTER DATABASE name_db rename to new_db;`
 
-11. delete database:
-    `drop database name_database;`
+11. delete database: `drop database name_database;`
 
-12. enter main menu:
-    `???`
+12. enter main menu: `???`
 
-13. Shimba denumirea la tabel
-   `alter table old_name_table rename to new_name_table;`
+13. Shimba denumirea la tabel: `alter table old_name_table rename to new_name_table;`
 
 14. s

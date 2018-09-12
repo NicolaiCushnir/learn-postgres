@@ -3,7 +3,7 @@
 
 the besst way to work with PostgreSQL. It must be instaled with scoop, don't worry!. However, be careful better to use `powershell` for work with t
 
-1. install postgres: `scoop install postgres`
+1. install postgres: `scoop install postgresql`
 
 2. Start server: `pg_ctl start`
 
@@ -34,11 +34,11 @@ the besst way to work with PostgreSQL. It must be instaled with scoop, don't wor
 13. see container table:
 `select * from name_table where id=5;`
 
-15. add column like; schimba coloana
-`UPDATE name_table SET column= 34 WHERE id = 1;`
+15. add a column; schimba coloana; <!>
+`UPDATE name_table SET name_column= 34 WHERE id = 1;`
 
-16. Adauga new coloana ca: id, name, age, email, author etc.
-`alter table name_table add column views_new_column  int; `
+16. Adauga new coloana ca: id, name, age. <!>
+`ALTER TABLE name_table ADD COLUMN new_column  INT; `
 
 17. Poti sa schimbi numele coloanei intr-un tabel.
 `???`
