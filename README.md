@@ -1,7 +1,7 @@
 # learn postgres
 ![JavaScript](img/postgres.png)
 
-the besst way to work with PostgreSQL. It must be instaled with scoop, don't worry!. However, be careful better to use `powershell` for work with t
+You can install PostgreSQ with `scoop` if uou want or you can go [official site](https://www.postgresql.org/download/). 
 
 1. install postgres: `scoop install postgresql`
 
@@ -34,6 +34,8 @@ the besst way to work with PostgreSQL. It must be instaled with scoop, don't wor
 13. see container table:
 `select * from name_table where id=5;`
 
+14. see container table: `select * from name_table where id=5`;
+
 15. add a column; schimba coloana; <!>
 `UPDATE name_table SET name_column= 34 WHERE id = 1;`
 
@@ -45,6 +47,8 @@ the besst way to work with PostgreSQL. It must be instaled with scoop, don't wor
 
 18. Change name at the column:
 `alter table name_table rename column_name to new_column;`
+19. describe table: `\d name`
 
-18. describe table: `\d name`
-19. leave db: `\q`
+20. leave db: `\q`
+
+21. delete/drop databse `DROP DATABASE the_name_to_db`
