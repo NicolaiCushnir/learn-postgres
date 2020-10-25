@@ -19,7 +19,7 @@
 
 6. fa asa cum vezi pe desenenul mai jos.
 
-![PSQL](img/SQL_Shell_PSQL.png) 
+![PSQL](img/SQL_Shell_PSQL.PNG) 
 
 ### Work with PostgreSQL
 
