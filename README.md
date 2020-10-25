@@ -3,13 +3,23 @@
 
 ### First Steps:
 
-**Warning** Be careful after you downloaded the postgreSQL and puted your `password` and `port` (5432). You must open `pgAdmin 4`. At windows 10 he is in left part of the search.Poti numi cum vrei dedavneie prilojenie, vse prilojenie sau chiar In other words, where you turn off the computer.
+**Warning 1** Be careful after you downloaded the postgreSQL and puted your `password` and `port` (5432). You must open `pgAdmin 4`. At windows 10 he is in left part of the search.Poti numi cum vrei dedavneie prilojenie, vse prilojenie sau chiar In other words, where you turn off the computer.
+
+**Warning 2** if can't install PostgreSQL, see at video "How to Install PostgreSQL & pgAdmin 4 on Windows 10" [YouTube](https://www.youtube.com/watch?v=e1MwsT5FJRQ&list=PLQqEY2kzSbZ5m0FyWH0BuOiCne05mwecW&index=6&ab_channel=ProgrammingKnowledge)
 
 1. You can install PostgreSQ with `scoop` or you can go [official site](https://www.postgresql.org/download/). 
 
 2. Memoreaza port and password
 
-3. Add Path: Переменые оружение
+3. check `postgres --version` in powershell.
+
+4. Add Path: Переменые оружение
+
+5. Pentru a face primele cereri trebuie sa folosesti SQL Shell (PSQL). Se afla in meniul search acolo unde este aplasata si pgAdmin 4.
+
+6. fa asa cum vezi pe desenenul mai jos.
+
+![PSQL](img/SQL_Shell_PSQL.png) 
 
 ### Work with PostgreSQL
 
