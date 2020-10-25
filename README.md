@@ -1,7 +1,12 @@
 # learn postgres
 ![JavaScript](img/postgres.png)
 
-You can install PostgreSQ with `scoop` if uou want or you can go [official site](https://www.postgresql.org/download/). 
+### First Steps:
+You can install PostgreSQ with `scoop` or you can go [official site](https://www.postgresql.org/download/). 
+
+**Warning** Be careful after you downloaded the postgreSQL and puted your `password` and `port` (5432). You must open `pgAdmin 4`. At windows 10 he is in left part of the search.Poti numi cum vrei dedavneie prilojenie, vse prilojenie sau chiar In other words, where you turn off the computer.
+
+### Work with PostgreSQL
 
 1. install postgres: `scoop install postgresql`
 
