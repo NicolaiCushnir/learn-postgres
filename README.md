@@ -27,20 +27,20 @@
 
 1. install postgres: `scoop install postgresql`
 
-2. Start server: `pg_ctl start`  **Additionally**
+2. start server: `pg_ctl start`  (Additionally)
 
-3. Stop server: `pg_ctl stop` **Additionally**
+3. stop server: `pg_ctl stop` (Additionally)
 
-4. Connect at Postgres from console or terminal `psql -U postgres`
+4. connect at Postgres from console or terminal `psql -U postgres`
 
-5. See all db: `\l`
+5. see all db: `\l`
 
-6. Create databse: `CREATE DATABASE name_db`
+6. create database: `CREATE DATABASE name_db`
 
-7. Select db: `\c name_db`
-
-8. create a new table:
+7. create a new table:
 `CREATE TABLE name_table(id INT PRIMARY KEY, name text, age INT);`
+
+8. select db: `\c name_db`
 
 9. see tables: `\dt`
 
@@ -50,7 +50,7 @@
 
 12. see content the table: `select * from name_table;`
 
-13. Put inside to the table: 
+13. put inside to the table: 
 `insert into users values(2, 'Vasea', 21);`
 
 14. see container table:
@@ -61,13 +61,13 @@
 16. add a column; schimba coloana; <!>
 `UPDATE name_table SET name_column= 34 WHERE id = 1;`
 
-17. Adauga new coloana ca: id, name, age. <!>
+17. adauga new coloana ca: id, name, age. <!>
 `ALTER TABLE name_table ADD COLUMN new_column  INT; `
 
-18. Poti sa schimbi numele coloanei intr-un tabel.
+18. poti sa schimbi numele coloanei intr-un tabel.
 `???`
 
-19. Change name at the column:
+19. change name at the column:
 `alter table name_table rename column_name to new_column;`
 
 20. describe table: `\d name`
