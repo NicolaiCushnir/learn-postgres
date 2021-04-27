@@ -17,7 +17,7 @@
 
 4. Add Path: Переменые оружение
 
-5. Pentru a face primele cereri trebuie sa folosesti SQL Shell (PSQL). Se afla in meniul search acolo unde este aplasata si pgAdmin 4.
+5. Pentru a face primele cereri trebuie sa folosesti SQL Shell (PSQL). Se afla in meniul search acolo unde este aplasata si pgAdmin 4. sau din console/termianl scrie `psql -U postgres` 
 
 6. fa asa cum vezi pe desenenul mai jos.
 
@@ -35,12 +35,12 @@
 
 5. see all db: `\l`
 
-6. create database: `CREATE DATABASE name_db`
+6. select db: `\c name_db`
 
-7. create a new table:
+7. create database: `CREATE DATABASE name_db`
+
+8. create a new table:
 `CREATE TABLE name_table(id INT PRIMARY KEY, name text, age INT);`
-
-8. select db: `\c name_db`
 
 9. see tables: `\dt`
 
@@ -75,3 +75,5 @@
 21. leave db: `\q`
 
 22. delete/drop databse `DROP DATABASE the_name_to_db`
+
+23. postgres=# CREATE USER nicolai with PASSWORD '123';
