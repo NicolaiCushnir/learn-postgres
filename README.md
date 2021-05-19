@@ -7,6 +7,8 @@
 
 **Warning 2** if can't install PostgreSQL, see at video "How to Install PostgreSQL & pgAdmin 4 on Windows 10" [YouTube](https://www.youtube.com/watch?v=e1MwsT5FJRQ&list=PLQqEY2kzSbZ5m0FyWH0BuOiCne05mwecW&index=6&ab_channel=ProgrammingKnowledge)
 
+**Warning 3!** Dacă vrei să creezi o bază de date în Postgres numaidecît trebuie să te conectez la `pgAdmin 4`. Scrie parola care ai scris-o de la psotgres. (Indiciu pentru mine, fondatorul de la Node.js.) Apoi dute la SQL Shell și fă ceia ce știi.
+
 ### Second Step : Install Postgres
 
 1. You can install PostgreSQ with `scoop` or you can go [official site](https://www.postgresql.org/download/). 
