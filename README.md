@@ -9,9 +9,11 @@
 
 **Warning 3!** Dacă vrei să creezi o bază de date în Postgres numaidecît trebuie să te conectez la `pgAdmin 4`. Scrie parola care ai scris-o de la psotgres. (Indiciu pentru mine, fondatorul de la Node.js.) Apoi dute la SQL Shell și fă ceia ce știi.
 
+**DROP DATABASE linux_db;**
+
 ### Second Step : Install Postgres
 
-1. You can install PostgreSQ with `scoop` or you can go [official site](https://www.postgresql.org/download/). 
+1. You can install PostgreSQ with `scoop` => `scoop install postgresql` or you can go [official site](https://www.postgresql.org/download/). 
 
 2. Memoreaza port and password
 
@@ -33,7 +35,8 @@
 
 3. stop server: `pg_ctl stop` (Additionally)
 
-4. connect at Postgres from console or terminal `psql -U postgres`
+4. connect at Postgres from console or terminal.
+(But be careful this command you must not use from SQL Shell PSQL) `psql -U postgres`
 
 5. see all db: `\l`
 
@@ -44,7 +47,7 @@
 8. create a new table:
 `CREATE TABLE name_table(id INT PRIMARY KEY, name text, age INT);`
 
-9. see tables: `\dt`
+9. see tables: `\dt` or `\d`
 
 10. rename table: `alter table old_name rename to new_name;`
 
@@ -79,3 +82,10 @@
 22. delete/drop databse `DROP DATABASE the_name_to_db`
 
 23. postgres=# CREATE USER nicolai with PASSWORD '123';
+
+24. **Exemle with VARCHAR(250) Probably 250 or 255 is max, min is 1** CREATE TABLE acrtreses(id INT PRIMARY KEY, name VARCHAR(30), age INT, country VARCHAR(30), hair VARCHAR(20), tatoo VARCHAR(10));
+
+### lessons
+
+* `id INT PRIMARY KEY` or `id BIGSERIAL`
+* Type of data {boolean,number INT, date, email}
