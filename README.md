@@ -30,60 +30,42 @@
 ### Work with PostgreSQL
 
 1. install postgres: `scoop install postgresql`
-
 2. start server: `pg_ctl start`  (Additionally)
-
 3. stop server: `pg_ctl stop` (Additionally)
-
-4. connect at Postgres from console or terminal.
-(But be careful this command you must not use from SQL Shell PSQL) `psql -U postgres`
-
+4. connect at Postgres from console or terminal. (But be careful this command you must not use from SQL Shell PSQL) `psql -U postgres`
 5. see all db: `\l`
-
 6. select db: `\c name_db`
-
 7. create database: `CREATE DATABASE name_db`
-
-8. create a new table:
-`CREATE TABLE name_table(id INT PRIMARY KEY, name text, age INT);`
-
-9. see tables: `\dt` or `\d`
-
-10. rename table: `alter table old_name rename to new_name;`
-
-11. clear postgres console:`\! cls;`
-
-12. see content the table: `select * from name_table;`
-
-13. put inside to the table: 
-`insert into users values(2, 'Vasea', 21);`
-
-14. see container table:
-`select * from name_table where id=5;`
-
-15. see container table: `select * from name_table where id=5`;
-
-16. add a column; schimba coloana; <!>
+8. rename database `ALTER DATABASE "old_name_db" RENAME TO "new_name_db";`
+9. create a new table: `CREATE TABLE name_table(id INT PRIMARY KEY, name text, age INT);`
+10. see tables: `\dt` or `\d`
+11. rename table: `alter table old_name rename to new_name;`
+12. clear postgres console:`\! cls;`
+13. see content the table: `select * from name_table;`
+14. put inside to the table: `insert into users values(2, 'Vasea', 21);`
+15. see container table: `select * from name_table where id=5;`
+16. see container table: `select * from name_table where id=5`;
+17. add a column; schimba coloana; <!>
 `UPDATE name_table SET name_column= 34 WHERE id = 1;`
 
-17. adauga new coloana ca: id, name, age. <!>
+18. adauga new coloana ca: id, name, age. <!>
 `ALTER TABLE name_table ADD COLUMN new_column  INT; `
 
-18. poti sa schimbi numele coloanei intr-un tabel.
+19. poti sa schimbi numele coloanei intr-un tabel.
 `???`
 
-19. change name at the column:
+20. change name at the column:
 `alter table name_table rename column_name to new_column;`
 
-20. describe table: `\d name`
+21. describe table: `\d name`
 
-21. leave db: `\q`
+22. leave db: `\q`
 
-22. delete/drop databse `DROP DATABASE the_name_to_db`
+23. delete/drop databse `DROP DATABASE the_name_to_db`
 
-23. postgres=# CREATE USER nicolai with PASSWORD '123';
+24. postgres=# CREATE USER nicolai with PASSWORD '123';
 
-24. **Exemle with VARCHAR(250) Probably 250 or 255 is max, min is 1** CREATE TABLE acrtreses(id INT PRIMARY KEY, name VARCHAR(30), age INT, country VARCHAR(30), hair VARCHAR(20), tatoo VARCHAR(10));
+25. **Exemle with VARCHAR(250) Probably 250 or 255 is max, min is 1** CREATE TABLE acrtreses(id INT PRIMARY KEY, name VARCHAR(30), age INT, country VARCHAR(30), hair VARCHAR(20), tatoo VARCHAR(10));
 
 ### lessons
 
