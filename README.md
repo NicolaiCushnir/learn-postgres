@@ -67,6 +67,8 @@
 
 25. **Exemle with VARCHAR(250) Probably 250 or 255 is max, min is 1** CREATE TABLE acrtreses(id INT PRIMARY KEY, name VARCHAR(30), age INT, country VARCHAR(30), hair VARCHAR(20), tatoo VARCHAR(10));
 
+27. Schimbă de la o bază de date la alta.. `\c "tutorial-online"`, dacă vrei la alta fă aceisași comandă și numele la "db_name";
+
 ### lessons
 
 * `id INT PRIMARY KEY` or `id BIGSERIAL`
