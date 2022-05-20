@@ -61,7 +61,7 @@
 
 22. leave db: `\q`
 
-23. delete/drop databse `DROP DATABASE the_name_to_db`
+23. delete databse `DROP DATABASE "the_name_to_db"`
 
 24. postgres=# CREATE USER nicolai with PASSWORD '123';
 
