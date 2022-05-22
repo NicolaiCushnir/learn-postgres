@@ -2,7 +2,6 @@
 ![JavaScript](img/postgres.png)
 
 ### First Steps : Notes
-
 **Warning 1** Be careful after you downloaded the postgreSQL and puted your `password` and default `port` (5432). You must open `pgAdmin 4`. At windows 10 he is in left part of the search. Poti numi cum vrei dedavneie prilojenie, vse prilojenie sau chiar In other words, where you turn off the computer.
 
 **Warning 2** if can't install PostgreSQL, see at video "How to Install PostgreSQL & pgAdmin 4 on Windows 10" [YouTube](https://www.youtube.com/watch?v=e1MwsT5FJRQ&list=PLQqEY2kzSbZ5m0FyWH0BuOiCne05mwecW&index=6&ab_channel=ProgrammingKnowledge)
@@ -73,3 +72,10 @@
 
 * `id INT PRIMARY KEY` or `id BIGSERIAL`
 * Type of data {boolean,number INT, date, email}
+
+```Terminal
+sudo -u postgres psql
+postgres=# create database mydb;
+postgres=# create user myuser with encrypted password 'mypass';
+postgres=# grant all privileges on database mydb to myuser;
+```
